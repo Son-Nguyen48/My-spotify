@@ -1,6 +1,6 @@
 <template>
   <button
-    @click="setID(index) ,showDropDown()"
+    @click="setID(index), showDropDown()"
     :class="`flex items-center justify-start `"
   >
     <slot></slot>

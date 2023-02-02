@@ -26,7 +26,11 @@
             :artists="artists"
             :recommends="recommends"
           ></main-content> -->
-          <router-view />
+          <router-view
+            :recents="recents"
+            :artists="artists"
+            :recommends="recommends"
+          />
         </div>
       </div>
 
