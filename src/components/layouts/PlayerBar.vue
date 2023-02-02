@@ -9,14 +9,14 @@
 
         <div class="flex items-center justify-start" style="width: 30%">
           <img
-            src="https://i.scdn.co/image/ab67616d000048519e16930796a07f1195002389"
+            src="https://i.scdn.co/image/ab67616d00001e02be0ac2aa3ed0047463210db1"
             alt="artist"
             class="h-14 w-14"
           />
 
           <div class="text-white mx-3">
-            <p>Matsuri</p>
-            <p class="text-xs text-lightest">Fujii Kaze</p>
+            <p>Bo Xì Bo</p>
+            <p class="text-xs text-lightest">Hoàng Thuỳ Linh</p>
           </div>
 
           <div class="w-8 h-8 flex items-center justify-center heart">
@@ -283,7 +283,7 @@ export default {
     return {
       audio: {
         isPlaying: false,
-        file: new Audio("Matsuri.mp3")
+        file: new Audio("boxibo.mp3")
       }
     };
   },
